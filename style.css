@@ -220,18 +220,24 @@ div.buybutton {
 
 @media only screen and (max-width: 1300px) {
     img.logo {
-        padding-top: 14px;
+        padding-top: 54px;
         padding-left: 23px;
         position: absolute;
     }
     div.text {
         position: absolute;
-        padding-top: 69px;
-        padding-left: 182px;
+        padding-top: 59px;
+        padding-left: 242px;
         font-family: "Bahnschrift";
         font-size: 14px;
         color: aqua;
     }
+
+    a.link {
+        margin: 29px;
+        /* Правильно ли использовать margin между двумя ссылками? (Ответ = "") */
+    }
+    
     .butt {
         border: 3px solid rgb(247, 0, 255);
         font-size: 20px;
