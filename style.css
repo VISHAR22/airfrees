@@ -2,13 +2,20 @@ body {
     color: rgb(56, 56, 56);
 }
 
-div.main {
+div.gradient {
     background: rgb(0, 30, 97);
     background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
     margin: auto;
     width: 80%;
     height: 1000px;
     background-size: cover;
+}
+
+div.main {
+    background-image: url(./img/espanacastle.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 img.logo {
@@ -19,6 +26,11 @@ img.logo {
 
 div.menu {
     position: relative;
+    background-image: url(./img/plane.png);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 10;
 }
 
 div.text {
@@ -232,12 +244,10 @@ div.buybutton {
         font-size: 14px;
         color: aqua;
     }
-
     a.link {
         margin: 29px;
         /* Правильно ли использовать margin между двумя ссылками? (Ответ = "") */
     }
-    
     .butt {
         border: 3px solid rgb(247, 0, 255);
         font-size: 20px;
