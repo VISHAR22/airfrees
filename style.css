@@ -7,31 +7,64 @@ div.gradient {
     background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
     margin: auto;
     width: 80%;
-    height: 1000px;
+    height: 2000px;
     background-size: cover;
 }
 
-div.main {
-    background-image: url(./img/espanacastle.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: right;
+img.Oasis {
+    width: 100%;
+    height: 100%;
+    opacity: 5%;
+    left: 1px;
+    position: absolute;
+    object-fit: cover;
+}
+
+img.EScastle {
+    float: right;
+    width: 75%;
+    z-index: 1;
+}
+
+img.planefon {
+    position: relative;
+    float: right;
+    top: 30px;
+    left: 1132px;
+    z-index: 2;
 }
 
 img.logo {
-    padding-top: 60px;
-    padding-left: 143px;
+    padding-top: 52px;
+    left: 10%;
     position: absolute;
+}
+
+.number2 {
+    top: 44px;
+    left: 985px;
+    font-size: 19px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: nowrap;
 }
 
 div.menu {
     position: relative;
-    background-image: url(./img/plane.png);
     height: 50%;
     background-repeat: no-repeat;
     background-position: right;
     z-index: 10;
 }
+
+
+/* div.buy {
+    background-image: url(./img/plane.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+} */
 
 div.text {
     position: absolute;
@@ -43,10 +76,20 @@ div.text {
     word-spacing: -1px;
 }
 
-a.link {
-    margin: 59px;
-    /* Правильно ли использовать margin между двумя ссылками? (Ответ = "") */
-    position: relative;
+a.linkA {
+    padding-top: 60px;
+    left: 466px;
+    position: absolute;
+    color: aqua;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: "Bahnschrift";
+}
+
+a.linkG {
+    left: 637px;
+    padding-top: 60px;
+    position: absolute;
     color: aqua;
     text-decoration: none;
     letter-spacing: 3px;
@@ -59,15 +102,15 @@ div.call {
     padding-left: 1021px;
     color: aqua;
     font-family: "Impact";
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
 }
 
 div.button {
     position: absolute;
-    left: 89%;
-    -webkit-transform: translate(-50%, -50%);
+    left: 88%;
     padding-top: 150px;
     top: 30%;
+    -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -121,40 +164,57 @@ div.button {
 }
 
 .text {
-    padding-left: 183px;
-    padding-top: 254px;
-    font-size: 64px;
+    left: 25.5%;
+    top: 25.5%;
+    font-size: 50px;
     font-family: "Horta";
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color: aqua;
     text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    position: absolute;
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
 }
 
 .text2 {
-    padding-left: 183px;
-    padding-top: 0px;
-    font-size: 53px;
+    left: 24.8%;
+    top: 36%;
+    font-size: 37px;
     font-family: "SonyEricssonLogo";
-    letter-spacing: 1.5px;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
     color: aqua;
     text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    position: absolute;
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
 }
 
 .buyticket {
     color: black;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 31px;
+    font-size: 54px;
     display: block;
-    line-height: 60px;
+    line-height: 85px;
     font-family: "Impact";
     text-align: center;
-    opacity: 0.76;
+    opacity: 0.56;
+    position: absolute;
+    left: 72px;
+    top: 18px;
+    width: 339.405px;
+    height: 47px;
+    -moz-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -webkit-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -ms-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
 }
 
 div.buybutton {
-    width: 250px;
-    height: 60px;
+    width: 375px;
+    height: 89px;
     display: block;
     background-image: -moz-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
     background-image: -webkit-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
@@ -164,19 +224,22 @@ div.buybutton {
     position: absolute;
     margin-top: 45px;
     left: 20%;
+    top: 50%;
 }
 
 .buyticket:link,
 .buyticket:visited {
     text-transform: capitalize;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 10px;
     transition: all .2s;
     position: absolute;
-    width: 250px;
-    /* top: 30%;
-    left: 79%; */
+    width: 375px;
+    height: 93px;
+    top: 0%;
+    left: 0%;
+    opacity: 0.76;
 }
 
 .buyticket:hover {
@@ -217,6 +280,314 @@ div.buybutton {
 .buyticket-animated {
     animation: moveInBottom 5s ease-out;
     animation-fill-mode: backwards;
+}
+
+div.Barcelona {
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    border-radius: 5px;
+    width: 296px;
+    height: 260px;
+    left: 256px;
+    top: 850px;
+}
+
+#circleB {
+    width: 35px;
+    height: 35px;
+    background: rgb(152, 112, 173);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoB {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+    letter-spacing: 2px;
+}
+
+div.cenaB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagB {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+div.Madrid {
+    border-radius: 5px;
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    width: 296px;
+    height: 260px;
+    left: 600px;
+    top: 875px;
+}
+
+#circleM {
+    width: 35px;
+    height: 35px;
+    background: rgb(210, 74, 67);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoM {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+    letter-spacing: 2px;
+}
+
+div.cenaM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagM {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+div.Alicante {
+    border-radius: 5px;
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    width: 296px;
+    height: 260px;
+    left: 945px;
+    top: 905px;
+    letter-spacing: 2px;
+}
+
+#circleA {
+    width: 35px;
+    height: 35px;
+    background: rgb(126, 46, 57);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoA {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+}
+
+div.cenaA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagA {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+.Iplane {
+    position: absolute;
+    top: 31%;
+    left: 18%;
+    height: 17px;
+}
+
+div.HitSailsTitle {
+    position: absolute;
+    left: 1335px;
+    top: 990px;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(255, 0, 246);
+    line-height: 1.611;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+div.HitSails {
+    font-size: 25px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 1.16;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1334px;
+    top: 1045px;
+    text-decoration: none;
+    width: 300px;
+    letter-spacing: 2px;
+}
+
+div.arrows {
+    font-size: 25px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 1.16;
+    text-align: left;
+    letter-spacing: 55px;
+    position: absolute;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    left: 1329px;
+    top: 1110px;
+}
+
+.buttonC {
+    left: 1344px;
+    top: 1115px;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    text-decoration: none;
+    text-transform: none;
 }
 
 @keyframes moveInBottom {
