@@ -1137,6 +1137,84 @@
         filter: contrast(1.2);
     }
     
+    div.ffooterR {
+        background: rgb(63, 63, 63);
+        margin: auto;
+        width: 80%;
+        height: 106px;
+        background-size: cover;
+        border-top: 3px solid rgb(31, 31, 31);
+    }
+    
+    div.VIlogo {
+        font-size: 53px;
+        font-family: "Impact";
+        color: rgb(0, 0, 0);
+        line-height: 1.268;
+        text-align: left;
+        -moz-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+        -webkit-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+        -ms-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+        position: absolute;
+        left: 296px;
+        top: 3601px;
+        z-index: 127;
+    }
+    
+    div.© {
+        font-size: 70px;
+        font-family: "Kozuka Gothic Pr6N";
+        color: rgb(182, 182, 182);
+        line-height: 1.268;
+        text-align: left;
+        -moz-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+        -webkit-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+        -ms-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+        position: absolute;
+        left: 184px;
+        top: 3635px;
+        z-index: 126;
+    }
+    
+    div.comanda {
+        font-size: 53px;
+        font-family: "Impact";
+        color: rgb(182, 182, 182);
+        line-height: 1.268;
+        text-align: left;
+        -moz-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+        -webkit-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+        -ms-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+        position: absolute;
+        left: 115px;
+        top: 3645px;
+        z-index: 125;
+    }
+    
+    img.VK {
+        position: relative;
+        top: 33px;
+        left: 1182px;
+    }
+    
+    img.Instagram {
+        position: relative;
+        top: 33px;
+        left: 1210px;
+    }
+    
+    img.facebook {
+        position: relative;
+        top: 33px;
+        left: 1237px;
+    }
+    
+    img.youtube {
+        position: relative;
+        top: 28px;
+        left: 1267px;
+    }
+    
     @keyframes moveInBottom {
         0% {
             opacity: 0;
