@@ -1,16 +1,1261 @@
+body {
+    color: rgb(56, 56, 56);
+    background: rgb(0, 30, 97);
+    background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
+    margin: 0 auto;
+    width: 100%;
+    height: 3577px;
+    background-size: cover;
+}
+
+div.gradient {
+    /* width: 80%;
+        height: 3570px; */
+    background-size: cover;
+}
+
+img.Oasis {
+    width: 100%;
+    height: 100%;
+    opacity: 5%;
+    left: 1px;
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img.EScastle {
+    float: right;
+    width: 73%;
+    z-index: -1;
+    position: absolute;
+    top: -16%;
+    left: 27%;
+}
+
+img.planefon {
+    float: right;
+    bottom: 1048px;
+    z-index: 3;
+    clear: right;
+    height: 400px;
+}
+
+img.logo {
+    padding-top: 52px;
+    left: 10%;
+    position: absolute;
+}
+
+.number2 {
+    top: 44px;
+    left: 1325px;
+    font-size: 19px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+div.menu {
+    position: relative;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 10;
+}
+
+div.text {
+    position: absolute;
+    padding-top: 69px;
+    padding-left: 355px;
+    font-family: "Bahnschrift";
+    font-size: 14px;
+    color: aqua;
+    word-spacing: -1px;
+}
+
+a.linkA {
+    padding-top: 60px;
+    left: 466px;
+    position: absolute;
+    color: aqua;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: "Bahnschrift";
+}
+
+a.linkG {
+    left: 637px;
+    padding-top: 60px;
+    position: absolute;
+    color: aqua;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: "Bahnschrift";
+}
+
+div.call {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 1021px;
+    color: aqua;
+    font-family: "Impact";
+    letter-spacing: 3px;
+}
+
+img.ballsimgB {
+    position: absolute;
+    left: 154px;
+    top: 150px;
+    width: 721px;
+    height: 324px;
+    z-index: 3;
+    border-radius: 25px;
+    filter: saturate(1);
+}
+
+div.button {
+    position: absolute;
+    left: 88%;
+    padding-top: 150px;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.butt {
+    border: 3px solid rgb(247, 0, 255);
+    font-size: 37px;
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 250px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Impact";
+    position: relative;
+    border-radius: 5px;
+    transform: .5s;
+    overflow: hidden;
+}
+
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(247, 0, 255);
+    top: 0;
+    left: -100%;
+    opacity: .6;
+    transition: .3s;
+    z-index: -1;
+}
+
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+
+.butt:hover {
+    color: #fff;
+}
+
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+.text {
+    left: 25.5%;
+    top: 25.5%;
+    font-size: 50px;
+    font-family: "Horta";
+    letter-spacing: 2px;
+    color: aqua;
+    text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    position: absolute;
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+}
+
+.text2 {
+    left: 24.8%;
+    top: 36%;
+    font-size: 37px;
+    font-family: "SonyEricssonLogo";
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    color: aqua;
+    text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    position: absolute;
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+}
+
+.buyticket {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 54px;
+    display: block;
+    line-height: 85px;
+    font-family: "Impact";
+    text-align: center;
+    opacity: 0.56;
+    position: absolute;
+    left: 72px;
+    top: 18px;
+    width: 339.405px;
+    height: 47px;
+    -moz-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -webkit-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -ms-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+}
+
+div.buybutton {
+    width: 375px;
+    height: 89px;
+    display: block;
+    background-image: -moz-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
+    background-image: -webkit-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
+    background-image: -ms-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
+    box-shadow: 0px 6px 151.34px 9.66px rgba(255, 143, 0, 0.58);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 45px;
+    left: 20%;
+    top: 50%;
+}
+
+.buyticket:link,
+.buyticket:visited {
+    text-transform: capitalize;
+    text-decoration: none;
+    /* display: inline-block; */
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+    width: 375px;
+    height: 93px;
+    top: 0%;
+    left: 0%;
+    opacity: 0.76;
+}
+
+.buyticket:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.buyticket:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buyticket-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.buyticket::after {
+    content: "";
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.buyticket-white::after {
+    background-color: #fff;
+}
+
+.buyticket:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.buyticket-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+div.Barcelona {
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    border-radius: 5px;
+    width: 296px;
+    height: 260px;
+    left: 256px;
+    top: 850px;
+}
+
+#circleB {
+    width: 35px;
+    height: 35px;
+    background: rgb(152, 112, 173);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoB {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+    letter-spacing: 2px;
+}
+
+div.cenaB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayB {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagB {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+div.Madrid {
+    border-radius: 5px;
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    width: 296px;
+    height: 260px;
+    left: 600px;
+    top: 875px;
+}
+
+#circleM {
+    width: 35px;
+    height: 35px;
+    background: rgb(210, 74, 67);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoM {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+    letter-spacing: 2px;
+}
+
+div.cenaM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayM {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagM {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+div.Alicante {
+    border-radius: 5px;
+    background-color: rgb(25, 53, 94);
+    box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
+    position: absolute;
+    width: 296px;
+    height: 260px;
+    left: 945px;
+    top: 905px;
+    letter-spacing: 2px;
+}
+
+#circleA {
+    width: 35px;
+    height: 35px;
+    background: rgb(126, 46, 57);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 80%;
+}
+
+img.photoA {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 296px;
+    height: 179px;
+}
+
+div.titleA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 150, 155);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 110px;
+}
+
+div.cenaA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+div.dayA {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+div.tagA {
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    color: rgb(0, 246, 255);
+    line-height: 1;
+    position: absolute;
+    top: 85%;
+    left: 6%;
+}
+
+.Iplane {
+    position: absolute;
+    top: 31%;
+    left: 18%;
+    height: 17px;
+}
+
+div.HitSailsTitle {
+    position: absolute;
+    left: 1335px;
+    top: 990px;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(255, 0, 246);
+    line-height: 1.611;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+div.HitSails {
+    font-size: 25px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 1.16;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1334px;
+    top: 1045px;
+    text-decoration: none;
+    width: 300px;
+    letter-spacing: 2px;
+}
+
+div.arrows {
+    font-size: 25px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 1.16;
+    text-align: left;
+    letter-spacing: 55px;
+    position: absolute;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    left: 1329px;
+    top: 1110px;
+}
+
+.buttonC {
+    left: 1344px;
+    top: 1115px;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    text-decoration: none;
+    text-transform: none;
+}
+
+img.EspanaHolms {
+    position: absolute;
+    top: 1150px;
+    height: 100%;
+    z-index: 2;
+}
+
+div.texttitleO {
+    font-size: 16px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 975px;
+    top: 1340px;
+    width: 246px;
+    height: 70px;
+    z-index: 80;
+    letter-spacing: 2px
+}
+
+div.textposrednikO {
+    font-size: 12px;
+    font-family: "Impact";
+    color: rgb(0, 210, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 956px;
+    top: 1370px;
+    width: 246px;
+    height: 70px;
+    z-index: 80;
+    letter-spacing: 2px
+}
+
+div.arrowO {
+    font-size: 21px;
+    font-family: "Segoe UI Symbol";
+    color: rgb(114, 0, 255);
+    line-height: 1.381;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 946px;
+    top: 1340px;
+    z-index: 86;
+}
+
+div.texttitleP {
+    font-size: 16px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1299px;
+    ;
+    top: 1355px;
+    width: 287.328px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.textP {
+    font-size: 13px;
+    font-family: "Impact";
+    color: rgb(0, 210, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1281px;
+    top: 1385px;
+    width: 330px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.arrowP {
+    font-size: 21px;
+    font-family: "Segoe UI Symbol";
+    color: rgb(169, 56, 0);
+    line-height: 1.381;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1266.773px;
+    top: 1355.5px;
+    z-index: 87;
+}
+
+div.texttitleI {
+    font-size: 16px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 978px;
+    top: 1501px;
+    width: 287px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.textI {
+    font-size: 13px;
+    font-family: "Impact";
+    color: rgb(0, 210, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 958px;
+    top: 1528px;
+    width: 253px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.arrowI {
+    font-size: 21px;
+    font-family: "Segoe UI Symbol";
+    color: rgb(255, 30, 0);
+    ;
+    line-height: 1.381;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1266.773px;
+    top: 1516.5px;
+    z-index: 87;
+}
+
+div.texttitleL {
+    font-size: 16px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1299px;
+    top: 1516px;
+    width: 287px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.textL {
+    font-size: 13px;
+    font-family: "Impact";
+    color: rgb(0, 210, 255);
+    line-height: 2.231;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 1279px;
+    top: 1541px;
+    width: 250px;
+    height: 70px;
+    z-index: 82;
+    letter-spacing: 2px
+}
+
+div.arrowL {
+    font-size: 21px;
+    font-family: "Segoe UI Symbol";
+    color: rgb(0, 255, 162);
+    line-height: 1.381;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 946px;
+    top: 1503px;
+    z-index: 87;
+}
+
+div.textyouU {}
+
+div.Posredniki {
+    left: 5%;
+    top: 8%;
+    position: absolute;
+}
+
+div.prozrachnostj {
+    left: 9%;
+    top: 9%;
+    position: absolute;
+}
+
+div.informacija {
+    left: 5%;
+    top: 8%;
+    position: absolute;
+}
+
+div.lichnoe {
+    left: 9%;
+    top: 10%;
+    position: absolute;
+}
+
+div.titletextG {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(216, 0, 255);
+    line-height: 1.611;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    left: 396px;
+    top: 1935px;
+    letter-spacing: 2px;
+    z-index: 108;
+}
+
+div.textG {
+    font-size: 25px;
+    font-family: "Impact";
+    color: rgb(255, 255, 255);
+    line-height: 1.16;
+    text-align: left;
+    -moz-transform: scale(1.07, 1.02);
+    -webkit-transform: scale(1.07, 1.02);
+    -ms-transform: scale(1.07, 1.02);
+    position: absolute;
+    width: 305px;
+    left: 398px;
+    top: 1987px;
+    letter-spacing: 2px;
+    z-index: 108;
+}
+
+img.wolves {
+    position: absolute;
+    left: 468px;
+    top: 1754px;
+    width: 1236px;
+    height: 466px;
+    z-index: 99;
+}
+
+div.imagesG {
+    display: block;
+    background-image: url('./img/countryimage51.png');
+    background-repeat: no-repeat;
+    background-size: 1460px;
+    position: absolute;
+    top: 2040px;
+    left: 230px;
+    height: 120%;
+    width: 87%;
+    z-index: 5;
+}
+
+img.galary-1 {
+    position: absolute;
+    left: 78px;
+    top: 80px;
+    width: 390px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-1:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.galary-2 {
+    position: absolute;
+    left: 472px;
+    top: 80px;
+    width: 290px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-2:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.galary-3 {
+    position: absolute;
+    left: 766px;
+    top: 80px;
+    width: 328px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-3:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.galary-4 {
+    position: absolute;
+    left: 1098px;
+    top: 80px;
+    width: 283px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-4:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.galary-5 {
+    position: absolute;
+    left: 78px;
+    top: 344px;
+    width: 390px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-5:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.galary-6 {
+    position: absolute;
+    left: 472.35px;
+    top: 279px;
+    width: 909px;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+img.galary-6:hover {
+    transform: scale(1.05);
+    z-index: 102;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.ballsimgF {
+    position: absolute;
+    left: 336px;
+    top: 2714px;
+    width: 830px;
+    height: 350px;
+    z-index: 3;
+    border-radius: 25px;
+    filter: saturate(1);
+}
+
+.Quastion {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 54px;
+    display: block;
+    line-height: 85px;
+    font-family: "Impact";
+    text-align: center;
+    opacity: 0.56;
+    position: absolute;
+    left: 72px;
+    top: 18px;
+    width: 339.405px;
+    height: 47px;
+    -moz-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -webkit-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+    -ms-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
+}
+
+div.textF {
+    font-size: 48px;
+    font-family: "Horta";
+    color: rgb(255, 255, 255);
+    line-height: 1.406;
+    text-align: left;
+    text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    position: absolute;
+    left: 428px;
+    top: 2739px;
+    z-index: 116;
+    letter-spacing: 2px;
+}
+
+div.textF2 {
+    font-size: 37px;
+    font-family: "SonyEricssonLogo";
+    color: rgb(255, 255, 255);
+    line-height: 1.406;
+    text-align: left;
+    text-shadow: 0px 1px 153.45px rgba(0, 0, 0, 0.58);
+    -moz-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
+    position: absolute;
+    left: 493px;
+    top: 2833px;
+    z-index: 116;
+    letter-spacing: 3px;
+}
+
+div.buttonF {
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( 42deg, rgb(0, 208, 66) 0%, rgb(0, 130, 71) 82%);
+    background-image: -webkit-linear-gradient( 42deg, rgb(0, 208, 66) 0%, rgb(0, 130, 71) 82%);
+    background-image: -ms-linear-gradient( 42deg, rgb(0, 208, 66) 0%, rgb(0, 130, 71) 82%);
+    box-shadow: 0px 6px 151.34px 9.66px rgba(12, 255, 0, 0.47);
+    position: absolute;
+    left: 372px;
+    top: 2953px;
+    width: 381px;
+    height: 84px;
+    z-index: 118;
+    opacity: .0.1;
+    filter: saturate(1.5);
+}
+
+#textQ {
+    opacity: .65;
+}
+
+.Quastion:link,
+.Quastion:visited {
+    text-transform: capitalize;
+    text-decoration: none;
+    /* display: inline-block; */
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+    width: 380px;
+    height: 85px;
+    top: 5%;
+    left: 0%;
+    text-align: center;
+    line-height: 70px;
+    opacity: 0.76;
+}
+
+.Quastion:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Quastion:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Quastion-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.Quastion::after {
+    content: "";
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.Quastion-white::after {
+    background-color: #fff;
+}
+
+.Quastion:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.Quastion-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+img.footerF {
+    position: absolute;
+    left: 197px;
+    top: 2966px;
+    width: 1509px;
+    filter: saturate(1.2);
+    filter: contrast(1.2);
+}
+
+div.ffooterR {
+    background: rgb(63, 63, 63);
+    top: 100%;
+    margin: auto;
+    width: 100%;
+    height: 108px;
+    background-size: cover;
+    border-top: 3px solid rgb(31, 31, 31);
+    position: relative;
+}
+
+div.VIlogo {
+    font-size: 53px;
+    font-family: "Impact";
+    color: rgb(0, 0, 0);
+    line-height: 1.268;
+    text-align: left;
+    -moz-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+    -webkit-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+    -ms-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
+    position: absolute;
+    left: 282px;
+    top: 22px;
+    z-index: 127;
+}
+
+div.© {
+    font-size: 70px;
+    font-family: "Kozuka Gothic Pr6N";
+    color: rgb(182, 182, 182);
+    line-height: 1.268;
+    text-align: left;
+    -moz-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+    -webkit-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+    -ms-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
+    position: absolute;
+    left: 19px;
+    top: 54px;
+    z-index: 126;
+}
+
+div.comanda {
+    font-size: 53px;
+    font-family: "Impact";
+    color: rgb(182, 182, 182);
+    line-height: 1.268;
+    text-align: left;
+    -moz-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+    -webkit-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+    -ms-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
+    position: absolute;
+    left: -50px;
+    top: 64px;
+    z-index: 125;
+}
+
+img.VK {
+    position: absolute;
+    top: 33px;
+    left: 1357px;
+}
+
+img.Instagram {
+    position: absolute;
+    top: 33px;
+    left: 1440px;
+}
+
+img.facebook {
+    position: absolute;
+    top: 33px;
+    left: 1524px;
+}
+
+img.youtube {
+    position: absolute;
+    top: 39px;
+    left: 1607px;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* Notebook */
+
+@media only screen and (max-width: 1280px) {
     body {
         color: rgb(56, 56, 56);
-    }
-    
-    div.gradient {
         background: rgb(0, 30, 97);
         background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
-        margin: auto;
-        width: 80%;
-        height: 3570px;
+        margin: 0 auto;
+        width: 100%;
+        height: 3577px;
         background-size: cover;
     }
-    
+    div.gradient {
+        /* width: 80%;
+            height: 3570px; */
+        background-size: cover;
+    }
     img.Oasis {
         width: 100%;
         height: 100%;
@@ -18,38 +1263,39 @@
         left: 1px;
         position: absolute;
         object-fit: cover;
+        overflow: hidden;
     }
-    
     img.EScastle {
         float: right;
-        width: 75%;
-        z-index: 1;
+        width: 73%;
+        z-index: -1;
+        position: absolute;
+        top: 7%;
+        left: 27%;
     }
-    
     img.planefon {
-        position: relative;
+        position: absolute;
         float: right;
-        top: 30px;
-        left: 1132px;
-        z-index: 2;
+        top: 9%;
+        left: 77%;
+        z-index: 3;
+        clear: right;
+        height: 321px;
     }
-    
     img.logo {
         padding-top: 52px;
         left: 10%;
         position: absolute;
     }
-    
     .number2 {
-        top: 44px;
-        left: 985px;
-        font-size: 19px;
+        top: 48px;
+        left: 807px;
+        font-size: 14px;
         position: absolute;
         text-decoration: none;
         text-transform: capitalize;
         white-space: nowrap;
     }
-    
     div.menu {
         position: relative;
         height: 50%;
@@ -57,7 +1303,6 @@
         background-position: right;
         z-index: 10;
     }
-    
     div.text {
         position: absolute;
         padding-top: 69px;
@@ -67,27 +1312,26 @@
         color: aqua;
         word-spacing: -1px;
     }
-    
     a.linkA {
-        padding-top: 60px;
-        left: 466px;
+        padding-top: 63px;
+        left: 394px;
         position: absolute;
         color: aqua;
         text-decoration: none;
         letter-spacing: 3px;
         font-family: "Bahnschrift";
+        font-size: 13px;
     }
-    
     a.linkG {
-        left: 637px;
-        padding-top: 60px;
+        left: 558px;
+        padding-top: 63px;
         position: absolute;
         color: aqua;
         text-decoration: none;
         letter-spacing: 3px;
         font-family: "Bahnschrift";
+        font-size: 13px;
     }
-    
     div.call {
         position: absolute;
         padding-top: 50px;
@@ -96,18 +1340,16 @@
         font-family: "Impact";
         letter-spacing: 3px;
     }
-    
     img.ballsimgB {
         position: absolute;
-        left: 154px;
-        top: 150px;
+        left: 120px;
+        top: 254px;
         width: 721px;
         height: 324px;
         z-index: 3;
         border-radius: 25px;
         filter: saturate(1);
     }
-    
     div.button {
         position: absolute;
         left: 88%;
@@ -119,7 +1361,6 @@
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
-    
     .butt {
         border: 3px solid rgb(247, 0, 255);
         font-size: 37px;
@@ -132,12 +1373,14 @@
         text-align: center;
         line-height: 60px;
         font-family: "Impact";
-        position: relative;
+        position: absolute;
         border-radius: 5px;
         transform: .5s;
         overflow: hidden;
+        z-index: -169;
+        left: -122px;
+        top: 113px;
     }
-    
     .butt::before,
     .butt::after {
         position: absolute;
@@ -151,24 +1394,20 @@
         transition: .3s;
         z-index: -1;
     }
-    
     .butt::after {
         opacity: 1;
         transition-delay: .2s;
     }
-    
     .butt:hover {
         color: #fff;
     }
-    
     .butt:hover::before,
     .butt:hover::after {
         left: 0;
     }
-    
     .text {
-        left: 25.5%;
-        top: 25.5%;
+        left: 19.5%;
+        top: 32.5%;
         font-size: 50px;
         font-family: "Horta";
         letter-spacing: 2px;
@@ -179,10 +1418,9 @@
         -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
     }
-    
     .text2 {
-        left: 24.8%;
-        top: 36%;
+        left: 18.4%;
+        top: 44%;
         font-size: 37px;
         font-family: "SonyEricssonLogo";
         font-weight: lighter;
@@ -194,30 +1432,28 @@
         -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
     }
-    
     .buyticket {
         color: black;
         text-decoration: none;
         text-transform: capitalize;
-        font-size: 54px;
+        font-size: 45px;
         display: block;
-        line-height: 85px;
+        line-height: 75px;
         font-family: "Impact";
         text-align: center;
         opacity: 0.56;
         position: absolute;
         left: 72px;
-        top: 18px;
+        top: 0px;
         width: 339.405px;
         height: 47px;
         -moz-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
         -webkit-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
         -ms-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
     }
-    
     div.buybutton {
-        width: 375px;
-        height: 89px;
+        width: 345px;
+        height: 71px;
         display: block;
         background-image: -moz-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
         background-image: -webkit-linear-gradient( 42deg, rgb(255, 186, 0) 0%, rgb(255, 126, 0) 100%);
@@ -226,10 +1462,10 @@
         border-radius: 10px;
         position: absolute;
         margin-top: 45px;
-        left: 20%;
-        top: 50%;
+        left: 13%;
+        top: 55%;
+        z-index: 100;
     }
-    
     .buyticket:link,
     .buyticket:visited {
         text-transform: capitalize;
@@ -238,28 +1474,24 @@
         border-radius: 10px;
         transition: all .2s;
         position: absolute;
-        width: 375px;
-        height: 93px;
+        width: 345px;
+        height: 77px;
         top: 0%;
         left: 0%;
         opacity: 0.76;
     }
-    
     .buyticket:hover {
         transform: translateY(-5px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
-    
     .buyticket:active {
         transform: translateY(-1px);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
-    
     .buyticket-white {
         background-color: #fff;
         color: #777;
     }
-    
     .buyticket::after {
         content: "";
         display: inline-block;
@@ -270,65 +1502,57 @@
         z-index: -1;
         transition: all .4s;
     }
-    
     .buyticket-white::after {
         background-color: #fff;
     }
-    
     .buyticket:hover::after {
         transform: scaleX(1.4) scaleY(1.6);
         opacity: 0;
     }
-    
     .buyticket-animated {
         animation: moveInBottom 5s ease-out;
         animation-fill-mode: backwards;
     }
-    
     div.Barcelona {
         background-color: rgb(25, 53, 94);
         box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
         position: absolute;
         border-radius: 5px;
-        width: 296px;
-        height: 260px;
-        left: 256px;
-        top: 850px;
+        width: 266px;
+        height: 230px;
+        left: 87px;
+        top: 840px;
     }
-    
     #circleB {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background: rgb(152, 112, 173);
         border-radius: 50%;
         position: absolute;
         top: 61%;
         left: 80%;
     }
-    
     img.photoB {
         border-radius: 5px;
         object-fit: cover;
-        width: 296px;
-        height: 179px;
+        width: 266px;
+        height: 158px;
     }
-    
     div.titleB {
         font-size: 18px;
         font-family: "Impact";
         color: rgb(0, 150, 155);
-        line-height: 1;
+        line-height: 0.6;
         text-align: center;
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        left: 110px;
+        left: 86px;
         letter-spacing: 2px;
     }
-    
     div.cenaB {
-        font-size: 18px;
+        font-size: 16px;
         font-family: "Impact";
         color: rgb(0, 246, 255);
         line-height: 1;
@@ -337,12 +1561,11 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 15%;
     }
-    
     div.dayB {
-        font-size: 18px;
+        font-size: 16px;
         font-family: "Impact";
         color: rgb(0, 246, 255);
         line-height: 1;
@@ -351,10 +1574,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 65%;
     }
-    
     div.tagB {
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
@@ -362,38 +1584,34 @@
         color: rgb(0, 246, 255);
         line-height: 1;
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 6%;
     }
-    
     div.Madrid {
         border-radius: 5px;
         background-color: rgb(25, 53, 94);
         box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
         position: absolute;
-        width: 296px;
-        height: 260px;
-        left: 600px;
-        top: 875px;
+        width: 266px;
+        height: 230px;
+        left: 395px;
+        top: 865px;
     }
-    
     #circleM {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background: rgb(210, 74, 67);
         border-radius: 50%;
         position: absolute;
         top: 61%;
         left: 80%;
     }
-    
     img.photoM {
         border-radius: 5px;
         object-fit: cover;
-        width: 296px;
-        height: 179px;
+        width: 266px;
+        height: 158px;
     }
-    
     div.titleM {
         font-size: 18px;
         font-family: "Impact";
@@ -404,10 +1622,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        left: 110px;
+        left: 96px;
         letter-spacing: 2px;
     }
-    
     div.cenaM {
         font-size: 18px;
         font-family: "Impact";
@@ -418,10 +1635,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 15%;
     }
-    
     div.dayM {
         font-size: 18px;
         font-family: "Impact";
@@ -432,10 +1648,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 65%;
     }
-    
     div.tagM {
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
@@ -443,39 +1658,35 @@
         color: rgb(0, 246, 255);
         line-height: 1;
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 6%;
     }
-    
     div.Alicante {
         border-radius: 5px;
         background-color: rgb(25, 53, 94);
         box-shadow: 0px 2px 37.05px 19.95px rgba(28, 33, 67, 0.4);
         position: absolute;
-        width: 296px;
-        height: 260px;
-        left: 945px;
-        top: 905px;
+        width: 266px;
+        height: 230px;
+        left: 701px;
+        top: 893px;
         letter-spacing: 2px;
     }
-    
     #circleA {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background: rgb(126, 46, 57);
         border-radius: 50%;
         position: absolute;
         top: 61%;
         left: 80%;
     }
-    
     img.photoA {
         border-radius: 5px;
         object-fit: cover;
-        width: 296px;
-        height: 179px;
+        width: 266px;
+        height: 158px;
     }
-    
     div.titleA {
         font-size: 18px;
         font-family: "Impact";
@@ -486,9 +1697,8 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        left: 110px;
+        left: 93px;
     }
-    
     div.cenaA {
         font-size: 18px;
         font-family: "Impact";
@@ -499,10 +1709,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 15%;
     }
-    
     div.dayA {
         font-size: 18px;
         font-family: "Impact";
@@ -513,10 +1722,9 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 65%;
     }
-    
     div.tagA {
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
@@ -524,34 +1732,31 @@
         color: rgb(0, 246, 255);
         line-height: 1;
         position: absolute;
-        top: 85%;
+        top: 83%;
         left: 6%;
     }
-    
     .Iplane {
         position: absolute;
         top: 31%;
-        left: 18%;
-        height: 17px;
+        left: 15%;
+        height: 15px;
     }
-    
     div.HitSailsTitle {
         position: absolute;
-        left: 1335px;
+        left: 1035px;
         top: 990px;
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
-        font-size: 18px;
+        font-size: 13px;
         font-family: "Impact";
         color: rgb(255, 0, 246);
         line-height: 1.611;
         text-align: left;
         letter-spacing: 2px;
     }
-    
     div.HitSails {
-        font-size: 25px;
+        font-size: 15px;
         font-family: "Impact";
         color: rgb(255, 255, 255);
         line-height: 1.16;
@@ -560,13 +1765,12 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        left: 1334px;
-        top: 1045px;
+        left: 1039px;
+        top: 1035px;
         text-decoration: none;
-        width: 300px;
+        width: 230px;
         letter-spacing: 2px;
     }
-    
     div.arrows {
         font-size: 25px;
         font-family: "Impact";
@@ -581,7 +1785,6 @@
         left: 1329px;
         top: 1110px;
     }
-    
     .buttonC {
         left: 1344px;
         top: 1115px;
@@ -592,13 +1795,12 @@
         text-decoration: none;
         text-transform: none;
     }
-    
     img.EspanaHolms {
         position: absolute;
-        top: 1150px;
-        height: 85%;
+        top: 1079px;
+        height: 100%;
+        z-index: 2;
     }
-    
     div.texttitleO {
         font-size: 16px;
         font-family: "Impact";
@@ -616,7 +1818,6 @@
         z-index: 80;
         letter-spacing: 2px
     }
-    
     div.textposrednikO {
         font-size: 12px;
         font-family: "Impact";
@@ -634,7 +1835,6 @@
         z-index: 80;
         letter-spacing: 2px
     }
-    
     div.arrowO {
         font-size: 21px;
         font-family: "Segoe UI Symbol";
@@ -649,7 +1849,6 @@
         top: 1340px;
         z-index: 86;
     }
-    
     div.texttitleP {
         font-size: 16px;
         font-family: "Impact";
@@ -668,7 +1867,6 @@
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.textP {
         font-size: 13px;
         font-family: "Impact";
@@ -681,12 +1879,11 @@
         position: absolute;
         left: 1281px;
         top: 1385px;
-        width: 330px;
+        width: 255px;
         height: 70px;
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.arrowP {
         font-size: 21px;
         font-family: "Segoe UI Symbol";
@@ -701,7 +1898,6 @@
         top: 1355.5px;
         z-index: 87;
     }
-    
     div.texttitleI {
         font-size: 16px;
         font-family: "Impact";
@@ -719,7 +1915,6 @@
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.textI {
         font-size: 13px;
         font-family: "Impact";
@@ -737,7 +1932,6 @@
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.arrowI {
         font-size: 21px;
         font-family: "Segoe UI Symbol";
@@ -753,7 +1947,6 @@
         top: 1516.5px;
         z-index: 87;
     }
-    
     div.texttitleL {
         font-size: 16px;
         font-family: "Impact";
@@ -771,7 +1964,6 @@
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.textL {
         font-size: 13px;
         font-family: "Impact";
@@ -789,7 +1981,6 @@
         z-index: 82;
         letter-spacing: 2px
     }
-    
     div.arrowL {
         font-size: 21px;
         font-family: "Segoe UI Symbol";
@@ -804,33 +1995,29 @@
         top: 1503px;
         z-index: 87;
     }
-    
+    div.textyouU {}
     div.Posredniki {
-        left: -1%;
-        top: -1%;
+        left: -26.8%;
+        top: -2%;
         position: absolute;
     }
-    
     div.prozrachnostj {
-        left: 4%;
-        top: 1%;
+        left: -28%;
+        top: 0%;
         position: absolute;
     }
-    
     div.informacija {
-        left: -1%;
-        top: 1%;
+        left: -27%;
+        top: 0%;
         position: absolute;
     }
-    
     div.lichnoe {
-        left: 4%;
-        top: 3%;
+        left: -28%;
+        top: 2%;
         position: absolute;
     }
-    
     div.titletextG {
-        font-size: 18px;
+        font-size: 13px;
         font-family: "Impact";
         color: rgb(216, 0, 255);
         line-height: 1.611;
@@ -839,14 +2026,13 @@
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
-        left: 396px;
-        top: 1935px;
+        left: 160px;
+        top: 2002px;
         letter-spacing: 2px;
         z-index: 108;
     }
-    
     div.textG {
-        font-size: 25px;
+        font-size: 20px;
         font-family: "Impact";
         color: rgb(255, 255, 255);
         line-height: 1.16;
@@ -856,135 +2042,126 @@
         -ms-transform: scale(1.07, 1.02);
         position: absolute;
         width: 305px;
-        left: 398px;
-        top: 1987px;
+        left: 168px;
+        top: 2027px;
         letter-spacing: 2px;
         z-index: 108;
     }
-    
     img.wolves {
-        position: absolute;
-        left: 468px;
+        position: relative;
+        left: 28px;
         top: 1754px;
         width: 1236px;
-        height: 466px;
-        z-index: 99;
+        height: 446px;
+        z-index: -0102;
     }
-    
     div.imagesG {
         display: block;
-        background-image: url(./img/countryimage51.png);
+        background-image: url('./img/countryimage51.png');
         background-repeat: no-repeat;
-        background-size: 1460px;
+        background-size: 1210px;
+        background-size: 1190px 536px;
         position: absolute;
         top: 2040px;
-        left: 230px;
-        width: 100%;
+        left: 38px;
         height: 120%;
+        width: 130%;
+        z-index: 5;
     }
-    
     img.galary-1 {
         position: absolute;
         left: 78px;
-        top: 80px;
-        width: 390px;
+        top: 79px;
+        width: 310px;
+        height: 199px;
         z-index: 101;
         transition: 0.5s;
         border-radius: 5px;
+        object-fit: cover;
     }
-    
     img.galary-1:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.galary-2 {
         position: absolute;
-        left: 472px;
+        left: 393px;
         top: 80px;
-        width: 290px;
+        width: 228px;
         z-index: 101;
         transition: 0.5s;
         border-radius: 5px;
     }
-    
     img.galary-2:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.galary-3 {
         position: absolute;
-        left: 766px;
+        left: 626px;
         top: 80px;
-        width: 328px;
-        z-index: 101;
+        width: 259px;
+        z-index: -101;
         transition: 0.5s;
         border-radius: 5px;
     }
-    
     img.galary-3:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.galary-4 {
         position: absolute;
-        left: 1098px;
+        left: 890px;
         top: 80px;
-        width: 283px;
+        width: 222px;
         z-index: 101;
         transition: 0.5s;
         border-radius: 5px;
     }
-    
     img.galary-4:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.galary-5 {
         position: absolute;
         left: 78px;
-        top: 344px;
-        width: 390px;
+        top: 282px;
+        width: 310px;
         z-index: 101;
         transition: 0.5s;
         border-radius: 5px;
     }
-    
     img.galary-5:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.galary-6 {
         position: absolute;
-        left: 472.35px;
-        top: 279px;
-        width: 909px;
+        left: 393.35px;
+        top: 235px;
+        width: 720px;
+        height: 221px;
         z-index: 101;
         transition: 0.5s;
         border-radius: 5px;
+        object-fit: cover;
     }
-    
     img.galary-6:hover {
         transform: scale(1.05);
         z-index: 102;
         border-radius: 20px;
         cursor: pointer;
     }
-    
     img.ballsimgF {
         position: absolute;
         left: 336px;
@@ -995,12 +2172,11 @@
         border-radius: 25px;
         filter: saturate(1);
     }
-    
     .Quastion {
         color: black;
         text-decoration: none;
         text-transform: capitalize;
-        font-size: 54px;
+        font-size: 45px;
         display: block;
         line-height: 85px;
         font-family: "Impact";
@@ -1015,9 +2191,8 @@
         -webkit-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
         -ms-transform: matrix( 0.78615695778546, 0, 0, 0.78615695778546, 0, 0);
     }
-    
     div.textF {
-        font-size: 48px;
+        font-size: 43px;
         font-family: "Horta";
         color: rgb(255, 255, 255);
         line-height: 1.406;
@@ -1027,14 +2202,13 @@
         -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         position: absolute;
-        left: 428px;
-        top: 2739px;
+        left: 209px;
+        top: 2773px;
         z-index: 116;
         letter-spacing: 2px;
     }
-    
     div.textF2 {
-        font-size: 37px;
+        font-size: 33px;
         font-family: "SonyEricssonLogo";
         color: rgb(255, 255, 255);
         line-height: 1.406;
@@ -1044,12 +2218,11 @@
         -webkit-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         -ms-transform: matrix( 1.47945646303654, 0, 0, 1.3375991629162, 0, 0);
         position: absolute;
-        left: 493px;
-        top: 2833px;
+        left: 266px;
+        top: 2843px;
         z-index: 116;
         letter-spacing: 3px;
     }
-    
     div.buttonF {
         border-radius: 10px;
         background-image: -moz-linear-gradient( 42deg, rgb(0, 208, 66) 0%, rgb(0, 130, 71) 82%);
@@ -1057,19 +2230,17 @@
         background-image: -ms-linear-gradient( 42deg, rgb(0, 208, 66) 0%, rgb(0, 130, 71) 82%);
         box-shadow: 0px 6px 151.34px 9.66px rgba(12, 255, 0, 0.47);
         position: absolute;
-        left: 372px;
+        left: 152px;
         top: 2953px;
-        width: 381px;
-        height: 84px;
+        width: 351px;
+        height: 64px;
         z-index: 118;
         opacity: .0.1;
         filter: saturate(1.5);
     }
-    
     #textQ {
         opacity: .65;
     }
-    
     .Quastion:link,
     .Quastion:visited {
         text-transform: capitalize;
@@ -1078,30 +2249,26 @@
         border-radius: 10px;
         transition: all .2s;
         position: absolute;
-        width: 380px;
-        height: 85px;
-        top: 5%;
+        width: 351px;
+        height: 65px;
+        top: -5%;
         left: 0%;
         text-align: center;
         line-height: 70px;
         opacity: 0.76;
     }
-    
     .Quastion:hover {
         transform: translateY(-5px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
-    
     .Quastion:active {
         transform: translateY(-1px);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
-    
     .Quastion-white {
         background-color: #fff;
         color: #777;
     }
-    
     .Quastion::after {
         content: "";
         display: inline-block;
@@ -1112,40 +2279,35 @@
         z-index: -1;
         transition: all .4s;
     }
-    
     .Quastion-white::after {
         background-color: #fff;
     }
-    
     .Quastion:hover::after {
         transform: scaleX(1.4) scaleY(1.6);
         opacity: 0;
     }
-    
     .Quastion-animated {
         animation: moveInBottom 5s ease-out;
         animation-fill-mode: backwards;
     }
-    
     img.footerF {
         position: absolute;
-        left: 197px;
-        top: 2978px;
-        width: 1509px;
-        z-index: 114;
+        left: -59px;
+        top: 2996px;
+        width: 1349px;
         filter: saturate(1.2);
         filter: contrast(1.2);
     }
-    
     div.ffooterR {
         background: rgb(63, 63, 63);
+        top: 87%;
         margin: auto;
-        width: 80%;
-        height: 106px;
+        width: 100%;
+        height: 108px;
         background-size: cover;
         border-top: 3px solid rgb(31, 31, 31);
+        position: relative;
     }
-    
     div.VIlogo {
         font-size: 53px;
         font-family: "Impact";
@@ -1156,11 +2318,10 @@
         -webkit-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
         -ms-transform: matrix( 1.50908298389299, 0, 0, 1.509082983893, 0, 0);
         position: absolute;
-        left: 296px;
-        top: 3601px;
+        left: 192px;
+        top: 22px;
         z-index: 127;
     }
-    
     div.© {
         font-size: 70px;
         font-family: "Kozuka Gothic Pr6N";
@@ -1171,11 +2332,10 @@
         -webkit-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
         -ms-transform: matrix( 0.22307426111395, 0, 0, 0.22307426111397, 0, 0);
         position: absolute;
-        left: 184px;
-        top: 3635px;
+        left: 19px;
+        top: 54px;
         z-index: 126;
     }
-    
     div.comanda {
         font-size: 53px;
         font-family: "Impact";
@@ -1186,71 +2346,28 @@
         -webkit-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
         -ms-transform: matrix( 0.21058339150077, 0, 0, 0.21058339150077, 0, 0);
         position: absolute;
-        left: 115px;
-        top: 3645px;
+        left: -50px;
+        top: 64px;
         z-index: 125;
     }
-    
     img.VK {
-        position: relative;
+        position: absolute;
         top: 33px;
-        left: 1182px;
+        left: 905px;
     }
-    
     img.Instagram {
-        position: relative;
+        position: absolute;
         top: 33px;
-        left: 1210px;
+        left: 985px;
     }
-    
     img.facebook {
-        position: relative;
+        position: absolute;
         top: 33px;
-        left: 1237px;
+        left: 1067px;
     }
-    
     img.youtube {
-        position: relative;
-        top: 28px;
-        left: 1267px;
+        position: absolute;
+        top: 39px;
+        left: 1147px;
     }
-    
-    @keyframes moveInBottom {
-        0% {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-    
-    @media only screen and (max-width: 1300px) {
-        img.logo {
-            padding-top: 54px;
-            padding-left: 23px;
-            position: absolute;
-        }
-        div.text {
-            position: absolute;
-            padding-top: 59px;
-            padding-left: 242px;
-            font-family: "Bahnschrift";
-            font-size: 14px;
-            color: aqua;
-        }
-        a.link {
-            margin: 29px;
-            /* Правильно ли использовать margin между двумя ссылками? (Ответ = "") */
-        }
-        .butt {
-            border: 3px solid rgb(247, 0, 255);
-            font-size: 20px;
-            color: rgb(247, 0, 255);
-            text-decoration: none;
-            text-transform: capitalize;
-            width: 105px;
-            height: 40px;
-        }
-    }
+}
