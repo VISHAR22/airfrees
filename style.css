@@ -4,6 +4,8 @@ body {
     background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
     margin: 0 auto;
     width: 100%;
+    min-width: 1900px;
+    max-width: 1900px;
     height: 3577px;
     background-size: cover;
 }
@@ -35,10 +37,11 @@ img.EScastle {
 
 img.planefon {
     float: right;
-    bottom: 1048px;
+    right: 0px;
     z-index: 3;
     clear: right;
     height: 400px;
+    position: absolute;
 }
 
 img.logo {
@@ -65,6 +68,21 @@ div.menu {
     z-index: 10;
 }
 
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url(./fonts/Bahnschrift.ttf);
+}
+
+@font-face {
+    font-family: 'Horta';
+    src: url(./fonts/Horta.ttf);
+}
+
+@font-face {
+    font-family: 'SonyEricssonLogo';
+    src: url(./fonts/SonyEricssonLogo.ttf);
+}
+
 div.text {
     position: absolute;
     padding-top: 69px;
@@ -77,7 +95,7 @@ div.text {
 
 a.linkA {
     padding-top: 60px;
-    left: 466px;
+    left: 606px;
     position: absolute;
     color: aqua;
     text-decoration: none;
@@ -86,7 +104,7 @@ a.linkA {
 }
 
 a.linkG {
-    left: 637px;
+    left: 817px;
     padding-top: 60px;
     position: absolute;
     color: aqua;
@@ -106,10 +124,10 @@ div.call {
 
 img.ballsimgB {
     position: absolute;
-    left: 154px;
-    top: 150px;
+    left: 344px;
+    top: 240px;
     width: 721px;
-    height: 324px;
+    height: 374px;
     z-index: 3;
     border-radius: 25px;
     filter: saturate(1);
@@ -235,6 +253,7 @@ div.buybutton {
     margin-top: 45px;
     left: 20%;
     top: 50%;
+    z-index: 100;
 }
 
 .buyticket:link,
@@ -873,12 +892,12 @@ div.textG {
 }
 
 img.wolves {
-    position: absolute;
+    position: relative;
     left: 468px;
     top: 1754px;
     width: 1236px;
     height: 466px;
-    z-index: 99;
+    z-index: -99;
 }
 
 div.imagesG {
@@ -1139,21 +1158,22 @@ div.buttonF {
 }
 
 img.footerF {
-    position: absolute;
-    left: 197px;
-    top: 2966px;
-    width: 1509px;
+    position: relative;
+    left: 0px;
+    top: 2011px;
+    width: 1904px;
     filter: saturate(1.2);
     filter: contrast(1.2);
 }
 
 div.ffooterR {
     background: rgb(63, 63, 63);
-    top: 100%;
-    margin: auto;
-    width: 100%;
+    top: 54%;
+    left: -1%;
+    /* margin: auto; */
+    width: 101.2%;
     height: 108px;
-    background-size: cover;
+    /* background-size: cover; */
     border-top: 3px solid rgb(31, 31, 31);
     position: relative;
 }
@@ -1248,6 +1268,8 @@ img.youtube {
         background: linear-gradient(156deg, rgba(0, 30, 97, 1) 18%, rgba(0, 132, 255, 1) 100%);
         margin: 0 auto;
         width: 100%;
+        min-width: 1280px;
+        max-width: 1280px;
         height: 3577px;
         background-size: cover;
     }
@@ -1277,7 +1299,7 @@ img.youtube {
         position: absolute;
         float: right;
         top: 9%;
-        left: 77%;
+        left: 76.7%;
         z-index: 3;
         clear: right;
         height: 321px;
@@ -1378,7 +1400,7 @@ img.youtube {
         transform: .5s;
         overflow: hidden;
         z-index: -169;
-        left: -122px;
+        left: -148px;
         top: 113px;
     }
     .butt::before,
@@ -1772,7 +1794,7 @@ img.youtube {
         letter-spacing: 2px;
     }
     div.arrows {
-        font-size: 25px;
+        font-size: 20px;
         font-family: "Impact";
         color: rgb(255, 255, 255);
         line-height: 1.16;
@@ -1782,15 +1804,16 @@ img.youtube {
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
-        left: 1329px;
-        top: 1110px;
+        left: 1039px;
+        top: 1080px;
     }
     .buttonC {
-        left: 1344px;
-        top: 1115px;
+        left: 1052px;
+        top: 1083px;
         -moz-transform: scale(1.07, 1.02);
         -webkit-transform: scale(1.07, 1.02);
         -ms-transform: scale(1.07, 1.02);
+        font-size: 15px;
         position: absolute;
         text-decoration: none;
         text-transform: none;
@@ -2065,7 +2088,7 @@ img.youtube {
         top: 2040px;
         left: 38px;
         height: 120%;
-        width: 130%;
+        width: 95%;
         z-index: 5;
     }
     img.galary-1 {
@@ -2292,9 +2315,9 @@ img.youtube {
     }
     img.footerF {
         position: absolute;
-        left: -59px;
-        top: 2996px;
-        width: 1349px;
+        left: 0px;
+        top: 2814px;
+        width: 1264px;
         filter: saturate(1.2);
         filter: contrast(1.2);
     }
@@ -2302,7 +2325,7 @@ img.youtube {
         background: rgb(63, 63, 63);
         top: 87%;
         margin: auto;
-        width: 100%;
+        width: 99.3%;
         height: 108px;
         background-size: cover;
         border-top: 3px solid rgb(31, 31, 31);
